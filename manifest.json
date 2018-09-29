@@ -1,0 +1,27 @@
+{
+  "name": "Amazon Music Control",
+  "version": "1.0",
+  "description": "",
+  "permissions": ["activeTab", "declarativeContent", "storage", "*://*/*"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/music64.png",
+      "32": "images/music64.png",
+      "48": "images/music64.png",
+      "128": "images/music64.png"
+    }
+  },
+  "icons": {
+    "16": "images/music64.png",
+    "32": "images/music64.png",
+    "48": "images/music64.png",
+    "128": "images/music64.png"
+  },
+  "manifest_version": 2
+}
